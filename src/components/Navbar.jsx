@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
         {/* Navbar Menu */}
             <ul className='hidden md:flex'>
-                <li>About</li>
+                <li><Link  to="about" smooth={true} offset={50} duration={500} >About</Link></li>
                 <li><Link  to="home" smooth={true} offset={50} duration={500} >Home</Link> </li>
                 <li><Link  to="skills" smooth={true} offset={50} duration={500} >Skills</Link></li>
                 <li><Link  to="projects" smooth={true} offset={50} duration={500} >Projects</Link></li>
