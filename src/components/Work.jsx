@@ -1,4 +1,8 @@
 import React from 'react'
+import MyPetPro from '../assets/MyPetPro.jpeg'
+import EBB from '../assets/EBB.jpeg'
+import CodingPals from '../assets/CodingPals.jpeg'
+import Blackjack from '../assets/Blackjack.jpeg'
 
 const Work = () => {
   return (
@@ -9,21 +13,21 @@ const Work = () => {
                 <p className='py-6'>Here is some of my recent work</p>
             </div>
 
-            <div>
-                <div>
+            <div style={{backgroundImage:`url(${MyPetPro})`}}
+             className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+                <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    {/* Hover Effects */}
                     <div>
-                        <div>
-                            <span>
+                        <span>
 
-                            </span>
-                            <div>
-                                <a href='/'>
-                                    <button></button>
-                                </a>
-                                <a href='/'>
-                                    <button></button>
-                                </a>
-                            </div>
+                        </span>
+                        <div>
+                            <a href='/'>
+                                <button></button>
+                            </a>
+                            <a href='/'>
+                                <button></button>
+                            </a>
                         </div>
                     </div>
                 </div>
